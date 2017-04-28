@@ -15,6 +15,11 @@
 		47D9BD971EB09348008D4F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BD951EB09348008D4F07 /* LaunchScreen.storyboard */; };
 		47D9BDA21EB09348008D4F07 /* test_NS_BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BDA11EB09348008D4F07 /* test_NS_BlockTests.m */; };
 		47D9BDAD1EB09348008D4F07 /* test_NS_BlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BDAC1EB09348008D4F07 /* test_NS_BlockUITests.m */; };
+		47D9BDBC1EB09397008D4F07 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BDBB1EB09397008D4F07 /* FooterView.m */; };
+		47D9BDBE1EB093BB008D4F07 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BDBD1EB093BB008D4F07 /* FooterView.xib */; };
+		47ED01581EB19CA8008AEDE1 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED01571EB19CA8008AEDE1 /* HeaderView.m */; };
+		47ED015A1EB19CBD008AEDE1 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47ED01591EB19CBD008AEDE1 /* HeaderView.xib */; };
+		47ED015D1EB1CB12008AEDE1 /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED015C1EB1CB12008AEDE1 /* DelegateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		47D9BDA81EB09348008D4F07 /* test_NS_BlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_NS_BlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9BDAC1EB09348008D4F07 /* test_NS_BlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_NS_BlockUITests.m; sourceTree = "<group>"; };
 		47D9BDAE1EB09349008D4F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D9BDBA1EB09397008D4F07 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		47D9BDBB1EB09397008D4F07 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		47D9BDBD1EB093BB008D4F07 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		47ED01561EB19CA8008AEDE1 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		47ED01571EB19CA8008AEDE1 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		47ED01591EB19CBD008AEDE1 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		47ED015B1EB1CB12008AEDE1 /* DelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
+		47ED015C1EB1CB12008AEDE1 /* DelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				47D9BD8B1EB09348008D4F07 /* AppDelegate.m */,
 				47D9BD8D1EB09348008D4F07 /* ViewController.h */,
 				47D9BD8E1EB09348008D4F07 /* ViewController.m */,
+				47ED015B1EB1CB12008AEDE1 /* DelegateView.h */,
+				47ED015C1EB1CB12008AEDE1 /* DelegateView.m */,
+				47ED01561EB19CA8008AEDE1 /* HeaderView.h */,
+				47ED01571EB19CA8008AEDE1 /* HeaderView.m */,
+				47ED01591EB19CBD008AEDE1 /* HeaderView.xib */,
+				47D9BDBA1EB09397008D4F07 /* FooterView.h */,
+				47D9BDBB1EB09397008D4F07 /* FooterView.m */,
+				47D9BDBD1EB093BB008D4F07 /* FooterView.xib */,
 				47D9BD901EB09348008D4F07 /* Main.storyboard */,
 				47D9BD931EB09348008D4F07 /* Assets.xcassets */,
 				47D9BD951EB09348008D4F07 /* LaunchScreen.storyboard */,
@@ -247,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D9BD971EB09348008D4F07 /* LaunchScreen.storyboard in Resources */,
+				47ED015A1EB19CBD008AEDE1 /* HeaderView.xib in Resources */,
+				47D9BDBE1EB093BB008D4F07 /* FooterView.xib in Resources */,
 				47D9BD941EB09348008D4F07 /* Assets.xcassets in Resources */,
 				47D9BD921EB09348008D4F07 /* Main.storyboard in Resources */,
 			);
@@ -274,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D9BD8F1EB09348008D4F07 /* ViewController.m in Sources */,
+				47ED01581EB19CA8008AEDE1 /* HeaderView.m in Sources */,
+				47D9BDBC1EB09397008D4F07 /* FooterView.m in Sources */,
 				47D9BD8C1EB09348008D4F07 /* AppDelegate.m in Sources */,
 				47D9BD891EB09348008D4F07 /* main.m in Sources */,
+				47ED015D1EB1CB12008AEDE1 /* DelegateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +533,7 @@
 				47D9BDB31EB09349008D4F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47D9BDB41EB09349008D4F07 /* Build configuration list for PBXNativeTarget "test_NS_BlockTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +542,7 @@
 				47D9BDB61EB09349008D4F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47D9BDB71EB09349008D4F07 /* Build configuration list for PBXNativeTarget "test_NS_BlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +551,7 @@
 				47D9BDB91EB09349008D4F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
